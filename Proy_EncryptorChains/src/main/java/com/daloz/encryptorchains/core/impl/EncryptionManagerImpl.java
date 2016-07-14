@@ -1,5 +1,8 @@
 package com.daloz.encryptorchains.core.impl;
 
+import java.security.MessageDigest;
+
+import org.jasypt.digest.config.DigesterConfig;
 import org.jasypt.util.password.ConfigurablePasswordEncryptor;
 
 import com.daloz.encryptorchains.config.TypeHash;

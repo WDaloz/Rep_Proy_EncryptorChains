@@ -13,6 +13,6 @@ public class TestEncryptionManager
 	{
 		IEncryptionManager iEM = EncryptionManagerFactory.getEncryptionManager();
 		
-		System.out.println(iEM.encrypt("123", TypeHash.SHA_256));
+		System.out.println(iEM.encrypt("123", TypeHash.SHA_512));
 	}
 }
